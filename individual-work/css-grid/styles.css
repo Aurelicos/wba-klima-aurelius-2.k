@@ -1,0 +1,23 @@
+.item1 { grid-area: left; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: menu2; }
+.item4 { grid-area: menu3; }
+.item5 { grid-area: menu4; }
+.item7 { grid-area: left1; }
+.item6 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'left menu menu2'
+    'left menu3 menu4'
+    'left1 footer footer';
+  gap: 10px;
+  padding: 10px;
+  grid-gap: 2rem;
+}
+
+.grid-container div {
+  background-color: #2196F3;
+  padding: 20px;
+}

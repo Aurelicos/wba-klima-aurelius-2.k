@@ -93,7 +93,7 @@ h1 {
 }
 
 .top-link-wrapper {
-  position: sticky;
+  position: fixed;
   width: 3rem;
   height: 3rem;
   bottom: 1rem;
