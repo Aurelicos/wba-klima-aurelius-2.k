@@ -1,0 +1,85 @@
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    width: 80%;
+    height: 100vh;
+    background-color: lightgray;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: center;
+}
+
+.grid-container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 1rem 0 1rem;
+}
+
+.hint {
+    margin: 0 0 1rem;
+}
+
+.grid-item {
+    padding: 4rem;
+    grid-column: 1/-1;
+}
+
+.grid-item:nth-child(1) {
+    display: grid;
+    background-color: yellowgreen;
+    grid-column: 1 / span 2;
+}
+
+.grid-item:nth-child(2) {
+    background-color: yellow;
+    grid-column: 3 / span 1;
+}
+
+.grid-item:nth-child(3) {
+    background-color: yellow;
+    grid-column: 4 / span 1;
+}
+
+.grid-item:nth-child(4) {
+    display: grid;
+    background-color: blue;
+    grid-column: 1 / span 3;
+}
+
+.grid-item:nth-child(5) {
+    background-color: yellow;
+    grid-column: 4 / span 1;
+}
+
+.grid-item:nth-child(6) {
+    background-color: purple;
+    grid-column: 1 / span 4;
+}
+
+.grid-item:nth-child(7) {
+    background-color: yellow;
+    grid-column: 1 / span 1;
+}
+
+.grid-item:nth-child(8) {
+    background-color: yellow;
+    grid-column: 2 / span 1;
+}
+
+.grid-item:nth-child(9) {
+    background-color: lightblue;
+    grid-column: 3 / span 2;
+}

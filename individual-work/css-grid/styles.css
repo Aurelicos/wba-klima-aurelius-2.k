@@ -6,7 +6,7 @@
 .item7 { grid-area: left1; }
 .item6 { grid-area: footer; }
 
-.grid-container {
+.container {
   display: grid;
   grid-template-areas:
     'left menu menu2'
@@ -17,7 +17,7 @@
   grid-gap: 2rem;
 }
 
-.grid-container div {
+.container div {
   background-color: #2196F3;
   padding: 4rem;
 }
