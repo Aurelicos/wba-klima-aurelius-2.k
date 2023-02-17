@@ -1,0 +1,23 @@
+$idk: #ff0000;
+$white: #ffffff;
+$size: 3rem;
+$size2: 4rem;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+    color: $idk;
+    font-size: $size;
+}
+
+@import "_modul.scss";

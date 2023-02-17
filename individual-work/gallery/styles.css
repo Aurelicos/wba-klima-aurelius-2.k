@@ -1,0 +1,57 @@
+.content {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  width: 1440px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-item {
+  height: 250px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+.grid-item:hover {
+  opacity: 1;
+}
+
+.grid-item:nth-child(1) {
+  background: url("./images/1.png") no-repeat center center;
+}
+.grid-item:nth-child(2) {
+  background: url("./images/2.png") no-repeat center center;
+}
+.grid-item:nth-child(3) {
+  background: url("./images/3.png") no-repeat center center;
+}
+.grid-item:nth-child(4) {
+  background: url("./images/4.png") no-repeat center center;
+}
+.grid-item:nth-child(5) {
+  background: url("./images/5.png") no-repeat center center;
+}
+.grid-item:nth-child(6) {
+  background: url("./images/6.png") no-repeat center center;
+}
+.grid-item:nth-child(7) {
+  background: url("./images/7.png") no-repeat center center;
+}
+.grid-item:nth-child(8) {
+  background: url("./images/8.png") no-repeat center center;
+}
+.grid-item:nth-child(9) {
+  background: url("./images/9.png") no-repeat center center;
+}/*# sourceMappingURL=styles.css.map */
